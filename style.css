@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  position: relative
+}
+
+.contenitore{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 550px;
+  width: 800px;
+  position: relative;
+  top: 5vh;
+  left:20vw;
+}
+
+
+.logo{
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 20%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.Title{
+  color: Lime;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+
+
+.navigation{
+  height:30px ;
+  width: 650px;
+  background-color: Lime;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.button{
+ position: absolute;
+ top: 50%;
+ left:33%;
+ transform: translate(-50%,-50%);
+}
+
+.buttonuno{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.buttondue{
+  position: absolute;
+  top: 50%;
+  left:69%;
+  transform: translate(-50%,-50%);
+}
+
+.contenitore_main{
+  position: absolute;
+  top: 70%;
+  left:22%;
+  transform: translate(-50%,-50%);
+}
+
+.Nome_veicolo{
+  display: inline;
+  color: white;
+}
+
+.Testo{
+  color: White;
+}
+
+.Carica{
+  height: 20px;
+  border: 1px solid none;
+  border-radius: 12px;
+  padding: 5px
+
+}
+
+.arancio{
+  width:150%;
+  background-color: orange;
+}
+
+.rosso{
+  width:300%;
+  background-color: red;
+}
+
+.verde{
+  width: 200%;
+  background: green;
+}
+
+footer{
+  position: absolute;
+  top: 115%;
+  left:20%;
+}
